@@ -8,6 +8,7 @@ import Indicators from "./components/Indicators";
 import Navbar from "./components/Navbar";
 import Landingpage from "./components/Landingpage";
 import Pricingpanel from "./components/Pricingpanel";
+import Profile from "./components/Profile";
 
 function App() {
   let [pics, setPics] = useState(data);
@@ -41,6 +42,7 @@ function App() {
       </div>
       <Landingpage />
       <Pricingpanel />
+      <Profile />
     </div>
   );
 }
